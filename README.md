@@ -66,7 +66,3 @@ The goal of this project is to understand how real-world e-commerce systems mana
 
 =================================================================
 
-
-
-\* Project Structure
-
