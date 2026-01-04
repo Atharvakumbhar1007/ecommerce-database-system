@@ -101,7 +101,7 @@ create table orderitem(
     price decimal(10 , 2) default 0.00,
     discount decimal(10 , 2) default 0.00,
     tax decimal(10 , 2) default 0.00,
-    subtotal decimal(10 , 2) as (greatest((quantity * price - discount + tax ),0)) stored,
+    subtotal decimal(10 , 2) default 0.00,
     createdAt datetime default current_timestamp,
     updatedAt datetime default current_timestamp on update current_timestamp,
     constraint pk_orderitem_orderitemId primary key (orderitemId),
@@ -357,10 +357,6 @@ select
     p.quantity
 from product p
 join category c on p.categoryId = c.categoryId;
-
--- ==========================================================
--- ---------------------------xox----------------------------
--- ==========================================================
 
 SELECT * FROM product;
 SELECT * FROM userprofile;
