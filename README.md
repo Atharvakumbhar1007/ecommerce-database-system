@@ -114,21 +114,21 @@ These views simplify reporting and analytical queries.
 
 ## Learning Outcomes
 
-- Practical experience with real-world database modeling
-- Strong understanding of normalization and relational integrity
-- Hands-on use of triggers, stored functions, and views
-- Experience designing scalable database schemas
-- Improved SQL querying and structuring skills
+- Practical experience with real-world database modeling.
+- Strong understanding of normalization and relational integrity.
+- Hands-on use of triggers, stored functions, and views.
+- Experience designing scalable database schemas.
+- Improved SQL querying and structuring skills.
 
 ---
 
 ## Future Enhancements
 
-- Add stored procedures for complete order processing
-- Implement indexing for performance optimization
-- Introduce role-based user access
-- Integrate with backend APIs such as Java, Spring Boot, or Node.js
-- Generate ER diagrams for better documentation
+- Add stored procedures for complete order processing.
+- Implement indexing for performance optimization.
+- Introduce role-based user access.
+- Integrate with backend APIs such as Java, Spring Boot, or Node.js.
+- Generate ER diagrams for better documentation.
 
 ---
 
